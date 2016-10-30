@@ -30,7 +30,7 @@ module.exports = (function () {
 			plop.inquirer.prompt(prompts, function (result) {
 				_d.resolve(result);
 			});
-		} else { 
+		} else {
 			var result = {};
 			prompts.forEach((prompt, index) => {
 				result[prompt.name] = gArgs[index];
